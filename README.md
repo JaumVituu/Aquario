@@ -6,7 +6,9 @@ Possui quatro comandos:
 Botão esquerdo do mouse: Aumenta o tamanho das bolhas;
 Botão direito do mouse: Diminui o tamanho das bolhas;
 S: aumenta a velocidade que as bolhas viajam;
-X: diminui a velocidade.
+X: diminui a velocidade;
+Rolar mouse para cima: aumenta quantidade de bolhas;
+Rolar para baixo: diminui quantidade.
 
 
 ATENÇÃO --- O ARQUIVO "PEIXES" NÃO POSSUI FINALIDADE

@@ -92,7 +92,7 @@ function logMouseButton(e) {
 				console.table("Tamanho adicional =" + self.addSize);
 			break;
 			case 1:
-				console.table("Meio");
+				console.table("Meio")
 			break;
 			case 2:
 				console.table("Direito");
@@ -103,6 +103,23 @@ function logMouseButton(e) {
 				console.table("outro");
     }
   }
+}
+addEventListener('wheel', OnWheel);
+function OnWheel(w) {
+	var rolar = w.deltaY;
+	if (rolar == -33.33333206176758)
+	{
+		self.qtdebolhas += 2;
+		self.start();
+		console.table("Rolar para cima");
+		console.table(rolar);
+	}
+	else{
+		self.qtdebolhas -= 2;
+		self.start();
+		console.table("Rolar para baixo");
+		console.table(rolar);
+	}	
 }
 }
 start()
